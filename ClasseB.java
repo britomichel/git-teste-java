@@ -8,4 +8,9 @@ public class ClasseB {
     public void setIdade(int idade) {
         this.idade = idade;
     }
+
+    // branch-alternativo (version)
+    public String toString() {
+        return String.valueOf(idade);
+    }
 }
